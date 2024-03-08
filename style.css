@@ -65,15 +65,15 @@
         color: var(--light-white);
     }
     .home-container h3{
-        font-size: 52px;
-        line-height: 66px;
+        font-size: 47px;
+        line-height: 49px;
         font-weight: 600;
         color: var(--primary);
-        margin-top: 12px;
+        margin-top: 18px;
     }
     .home-container .designation{
         color: var(--white);
-        margin-bottom: 17px;
+        margin-bottom: 23px;
     }
     .btn{
         padding: 12px 30px;
