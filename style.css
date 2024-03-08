@@ -5,6 +5,18 @@
     font-family: Poppins;
 }
 :root{
-    --primary: #333;
-    --font : #444;
+    --bg: #2E4053;
+    --white : #FBFCFC;
+    --light-white : #F2F3F4;
 }
+
+
+@media only screen and (max-width: 550px) {
+    .home-container{
+        width: 100%;
+        height: 100vh;
+        background-color: #2E4053;
+        color: var(--white);
+    }
+  }
+  
