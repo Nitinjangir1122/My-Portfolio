@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -5,9 +6,10 @@
     font-family: Poppins;
 }
 :root{
-    --bg: #2E4053;
+    --primary : #39f7be;
+    --bg: #0E1415;
     --white : #FBFCFC;
-    --light-white : #F2F3F4;
+    --light-white : #ececec;
 }
 
 
@@ -15,8 +17,91 @@
     .home-container{
         width: 100%;
         height: 100vh;
-        background-color: #2E4053;
+        background-color: var(--bg);
         color: var(--white);
+        padding: 0 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    p{
+        font-size: 15px;
+        line-height: 29px;
+        color: var(--light-white);
+    }
+    .home-container h3{
+        font-size: 52px;
+        line-height: 66px;
+        font-weight: 600;
+        color: var(--primary);
+        margin-top: 12px;
+    }
+    .home-container .designation{
+        color: var(--white);
+        margin-bottom: 17px;
+    }
+    .btn{
+        padding: 12px 30px;
+        border: 2px solid var(--primary);
+        margin-top: 40px;
+        text-decoration: none;
+        color: var(--primary);
+        border-radius: 5px;
+    }
+    .btn:hover{
+        background-color: var(--primary);
+        color: #333;
+        transition: all .5s ease;
     }
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
