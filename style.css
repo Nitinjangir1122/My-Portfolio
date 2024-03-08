@@ -34,6 +34,7 @@
         display: inline;
         padding-right: 10px;
         background-color: var(--bg);
+        color: var(--primary);
         font-size: 22px;
         position: relative;
         font-weight: 500;
@@ -93,6 +94,9 @@
 
     /* ---- About Us Section CSS CODE ---- */
 
+    .about-section .para1{
+        margin-bottom: 15px;
+    }
     .about-img{
         width: 160px;
         height: 180px;
@@ -121,6 +125,11 @@
         border-radius: 3px;
         border: 2px solid var(--primary);
     }
+
+
+
+
+    /* ---- About Us Section CSS CODE ---- */
   }
   
 
